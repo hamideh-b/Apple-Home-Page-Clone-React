@@ -1,0 +1,48 @@
+@media screen and (min-width: 1200px) {
+  .wrapper-product {
+    height: 580px;
+
+    .wrapper-product-top {
+      h2 {
+        font-size: 56px;
+      }
+      p {
+        font-size: 28px;
+      }
+    }
+    .wrapper-product-bottom {
+      a {
+        font-size: 17px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+
+    .iphone-pro-16 {
+      width: inherit;
+      height: inherit;
+      background: url("../../../images/hero_iphone16pro_large.jpg") repeat center center;
+      background-size: cover;
+    }
+    .iphone-16 {
+      width: inherit;
+      height: inherit;
+      background: url(../../../images/hero_iphone16-large.jpg) no-repeat center center;
+      background-size: cover;
+    }
+    .watch-10 {
+      width: inherit;
+      height: inherit;
+      background: url(../../../images/hero_apple_watch_series_10_large.jpg) no-repeat
+        center center;
+      background-size: cover;
+      .watch-logo {
+        width: inherit;
+        height: 70px;
+        background: url(../../../images/hero_logo_apple_watch_series_10_large.png)
+          no-repeat center center;
+      }
+    }
+  }
+}

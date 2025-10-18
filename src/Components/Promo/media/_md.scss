@@ -1,0 +1,67 @@
+@media screen and (min-width: 768px) and (max-width: 1068px) {
+  .promo-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 12px;
+    padding: 0 12px;
+    .wrapper-promo {
+      height: 490px;
+      a.btn {
+        font-size: 14px;
+      }
+      .airpod-promo {
+        background: url(../../../images/promo_airpod_medium.jpg) no-repeat center
+          center;
+        background-size: cover;
+      }
+      .wrapper-promo-section {
+        h3 {
+          font-size: 32px;
+        }
+        p {
+          font-size: 19px;
+        }
+      }
+      .airpod-pro-promo {
+        background: url(../../../images/promo_airpods_pro_2_medium.jpg) repeat center
+          center;
+      }
+      .promo-ipad-mini {
+        background: url(../../../images/promo_ipad_mini_medium.jpg) no-repeat center
+          center;
+        background-size: cover;
+      }
+      .watch-ultra {
+        background: url(../../../images/promo_apple_watch_ultra2_medium.jpg) no-repeat
+          center center;
+        background-size: cover;
+        .watch-ultra-logo {
+          height: 70px;
+          background: url(../../../images/promo_logo_apple_watch_ultra2-medium.png)
+            no-repeat center center;
+        }
+      }
+      .iphone-tradeIn {
+        background: url(../../../images/promo_iphone_tradein_medium.jpg) no-repeat
+          center center;
+        background-size: cover;
+        .iphone-tradeIn-logo {
+          height: 70px;
+          background: url(../../../images/promo_logo_iphone_tradein_medium.png)
+            no-repeat center center;
+        }
+      }
+      .card-promo {
+        background: url(../../../images/promo_apple_card_medium.jpg) no-repeat center
+          center;
+        background-size: cover;
+        .card-promo-logo {
+          height: 70px;
+          background: url(../../../images/logo_card-medium.png) no-repeat center
+            center;
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,12 @@
+@media screen and (min-width: 1200px) {
+  header nav {
+    height: 50px;
+    .navbar-brand {
+      font-size: 17px;
+    }
+    .navbar-nav > .nav-item > a {
+      line-height: 50px;
+      font-size: 12px !important;
+    }
+  }
+}
