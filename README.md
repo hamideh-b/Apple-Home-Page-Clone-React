@@ -1,4 +1,4 @@
-Apple Website Clone – React | SCSS | JavaScript | Bootstrap 5 | REST API
+Apple Website Clone – React | Sass | JavaScript | Bootstrap 5 | REST API
 
 Developed a full-responsive, interactive clone of Apple’s official website using React and modular components, with dynamic data handled via JSON-Server and REST API to replicate real website behavior.
 
